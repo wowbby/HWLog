@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HWLog"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "HWLog"
   s.homepage     = "https://github.com/wowbby/HWLog"
   s.ios.deployment_target = '7.0'

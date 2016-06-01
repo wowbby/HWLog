@@ -87,7 +87,6 @@
 		F5D4681E1CFE8842001FB8B7 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
 		F5D4681F1CFE8842001FB8B7 /* DDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
 		F5D468201CFE8842001FB8B7 /* DDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
-		F5D468231CFE8842001FB8B7 /* CocoaLumberjack.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = CocoaLumberjack.modulemap; sourceTree = "<group>"; };
 		F5D468321CFE889F001FB8B7 /* HWLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWLog.h; sourceTree = "<group>"; };
 		F5D468331CFE889F001FB8B7 /* HWLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWLog.m; sourceTree = "<group>"; };
 		F5D4687D1CFEAB82001FB8B7 /* HWLogFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWLogFormat.h; sourceTree = "<group>"; };
@@ -200,7 +199,6 @@
 			isa = PBXGroup;
 			children = (
 				F5D468071CFE8842001FB8B7 /* Classes */,
-				F5D468211CFE8842001FB8B7 /* Framework */,
 			);
 			name = CocoaLumberjack;
 			path = ../CocoaLumberjack;
@@ -242,22 +240,6 @@
 				F5D468201CFE8842001FB8B7 /* DDMultiFormatter.m */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		F5D468211CFE8842001FB8B7 /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				F5D468221CFE8842001FB8B7 /* Lumberjack */,
-			);
-			path = Framework;
-			sourceTree = "<group>";
-		};
-		F5D468221CFE8842001FB8B7 /* Lumberjack */ = {
-			isa = PBXGroup;
-			children = (
-				F5D468231CFE8842001FB8B7 /* CocoaLumberjack.modulemap */,
-			);
-			path = Lumberjack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
