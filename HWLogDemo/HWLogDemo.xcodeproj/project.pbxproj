@@ -25,8 +25,6 @@
 		F5D4682D1CFE8842001FB8B7 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D4681C1CFE8842001FB8B7 /* DDContextFilterLogFormatter.m */; };
 		F5D4682E1CFE8842001FB8B7 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D4681E1CFE8842001FB8B7 /* DDDispatchQueueLogFormatter.m */; };
 		F5D4682F1CFE8842001FB8B7 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D468201CFE8842001FB8B7 /* DDMultiFormatter.m */; };
-		F5D468301CFE8842001FB8B7 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5D468241CFE8842001FB8B7 /* LICENSE.txt */; };
-		F5D468311CFE8842001FB8B7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F5D468251CFE8842001FB8B7 /* README.md */; };
 		F5D468341CFE889F001FB8B7 /* HWLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D468331CFE889F001FB8B7 /* HWLog.m */; };
 		F5D4687F1CFEAB82001FB8B7 /* HWLogFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D4687E1CFEAB82001FB8B7 /* HWLogFormat.m */; };
 /* End PBXBuildFile section */
@@ -90,8 +88,6 @@
 		F5D4681F1CFE8842001FB8B7 /* DDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
 		F5D468201CFE8842001FB8B7 /* DDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
 		F5D468231CFE8842001FB8B7 /* CocoaLumberjack.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = CocoaLumberjack.modulemap; sourceTree = "<group>"; };
-		F5D468241CFE8842001FB8B7 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		F5D468251CFE8842001FB8B7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F5D468321CFE889F001FB8B7 /* HWLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWLog.h; sourceTree = "<group>"; };
 		F5D468331CFE889F001FB8B7 /* HWLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWLog.m; sourceTree = "<group>"; };
 		F5D4687D1CFEAB82001FB8B7 /* HWLogFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWLogFormat.h; sourceTree = "<group>"; };
@@ -205,8 +201,6 @@
 			children = (
 				F5D468071CFE8842001FB8B7 /* Classes */,
 				F5D468211CFE8842001FB8B7 /* Framework */,
-				F5D468241CFE8842001FB8B7 /* LICENSE.txt */,
-				F5D468251CFE8842001FB8B7 /* README.md */,
 			);
 			name = CocoaLumberjack;
 			path = ../CocoaLumberjack;
@@ -369,7 +363,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5D468301CFE8842001FB8B7 /* LICENSE.txt in Resources */,
 				F5D467E21CFE87F1001FB8B7 /* LaunchScreen.storyboard in Resources */,
 				F5D467DF1CFE87F1001FB8B7 /* Assets.xcassets in Resources */,
 				F5D467DA1CFE87F1001FB8B7 /* Main.storyboard in Resources */,
@@ -410,7 +403,6 @@
 				F5D467D41CFE87F1001FB8B7 /* AppDelegate.m in Sources */,
 				F5D4682F1CFE8842001FB8B7 /* DDMultiFormatter.m in Sources */,
 				F5D4682D1CFE8842001FB8B7 /* DDContextFilterLogFormatter.m in Sources */,
-				F5D468311CFE8842001FB8B7 /* README.md in Sources */,
 				F5D4682A1CFE8842001FB8B7 /* DDFileLogger.m in Sources */,
 				F5D467D11CFE87F1001FB8B7 /* main.m in Sources */,
 			);
