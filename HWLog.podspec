@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.source_files  = "HWLog/*.{h,m}"
   s.platform      = :ios, '7.0'
   s.requires_arc  = true
-  s.dependency 'CocoaLumberjack'
+  s.dependency "CocoaLumberjack", "~> 2.2.0"
 end
