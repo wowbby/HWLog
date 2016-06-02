@@ -24,11 +24,11 @@
 - (NSString *)formatLogMessage:(DDLogMessage *)logMessage {
     NSString *logLevel;
     switch (logMessage->_flag) {
-        case DDLogFlagError    : logLevel = @"E"; break;
-        case DDLogFlagWarning  : logLevel = @"W"; break;
-        case DDLogFlagInfo     : logLevel = @"I"; break;
-        case DDLogFlagDebug    : logLevel = @"D"; break;
-        default                : logLevel = @"V"; break;
+        case DDLogFlagError    : logLevel = @"ERRLOG"; break;
+        case DDLogFlagWarning  : logLevel = @"WARNLOG"; break;
+        case DDLogFlagInfo     : logLevel = @"INFOLOG"; break;
+        case DDLogFlagDebug    : logLevel = @"DEBUGLOG"; break;
+        default                : logLevel = @"VERBOSELOG"; break;
     }
     
     NSString *dateAndTime = [_threadUnsafeDateFormatter stringFromDate:(logMessage->_timestamp)];

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HWLog"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "HWLog"
   s.homepage     = "https://github.com/wowbby/HWLog"
   s.ios.deployment_target = '7.0'
@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.source_files  = "HWLog/*.{h,m}"
   s.platform      = :ios, '7.0'
   s.requires_arc  = true
-  s.dependency "CocoaLumberjack"
+  s.dependency 'CocoaLumberjack'
 end

@@ -18,11 +18,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    HWLogError(@"error");
-    HWLogWarn(@"warn");
-    HWLogInfo(@"info");
-    HWLogDebug(@"debug");
-    HWLogVerbose(@"verbose");
+    HWLogError(@{@"Error":@"error"});
+    HWLogWarn(@{@"warn":@"warn"});
+    HWLogInfo(@{@"info":@"info"});
+    
 }
 
 - (void)didReceiveMemoryWarning {

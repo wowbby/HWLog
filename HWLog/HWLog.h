@@ -15,11 +15,11 @@ static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
 static const DDLogLevel ddLogLevel = DDLogLevelWarning;
 #endif
 
-#define HWLogError(frmt, ...) DDLogError(frmt)
-#define HWLogWarn(frmt, ...) DDLogWarn(frmt)
-#define HWLogInfo(frmt, ...) DDLogInfo(frmt)
-#define HWLogDebug(frmt, ...) DDLogDebug(frmt)
-#define HWLogVerbose(frmt, ...) DDLogVerbose(frmt)
+#define HWLogError(format,...)   DDLogError(@"%@",format)
+#define HWLogWarn(format,...)    DDLogWarn(@"%@",format)
+#define HWLogInfo(format,...)    DDLogInfo(@"%@",format)
+#define HWLogDeBug(format,...)   DDLogDebug(@"%@",format)
+#define HWLogVerbose(format,...) DDLogVerbose(@"%@",format)
 @interface HWLog : NSObject
 
 @end
